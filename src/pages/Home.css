@@ -1,0 +1,21 @@
+.web{
+
+}
+
+.mobile{
+    display: none;
+}
+
+.team-avatar{
+    height: 170px;
+    width: 170px;
+}
+
+@media  (max-width:600px){
+    .mobile{
+        display:block;
+    }
+    .web{
+        display: none;
+    }
+}
